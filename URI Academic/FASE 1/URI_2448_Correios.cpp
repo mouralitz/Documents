@@ -18,14 +18,14 @@ int main(){
 	for(int i = 0; i < m; i++){
 		comparador = b[i];
 		
-		for (int i = 0; i < n; i++){
-			if(a[i] != comparador){
+		for (int j = 0; j < n; j++){
+			if(a[j] != comparador){
 				cont++;
 				
 			}
 		}
 	}
-	
+
 	printf("%d\n", cont/2);
 		
 		
