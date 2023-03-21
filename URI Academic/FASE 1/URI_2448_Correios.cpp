@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-	int n, m, comparador, cont = 0, posicaon, posicaom, tempoi = 0, tempof = 0, tempototal = 0;
-	
+	int n, m, comparador, cont = 0;
+		
 	scanf("%d %d", &n, &m);
 	
 	int a[n], b[m];
